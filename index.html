@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoTravel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/esas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <nav class="navbar">
+                <div class="konum">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p><a href="#">GoTravel</a></p>
+                </div>
+                <div class="axtaris">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </div>
+            </nav>
+        </div>
+        <div class="birinci">
+            <div class="box">
+                <div class="tabs">
+                    <button class="active" onclick="(event, 'Flight')"><i class="fa-solid fa-plane"
+                            id="text5"></i>Flight</button>
+                    <button class="hotel" onclick="(event, 'Hotel')"><i class="fa-solid fa-bed"
+                            id="text6"></i>Hotel</button>
+                    <Button class="rental" onclick="(event, 'Hotel')"><i class="fa-solid fa-car"></i>Rental</Button>
+                </div>
+                <div class="text5" id="Flight">
+                    <br>
+                    <h2>Travel the world with us</h2><br>
+                    <div class="form">
+                        <input type="text" placeholder="Departing from">
+                        <input type="text" placeholder="Arriving at">
+                    </div>
+                    <button class="search">Search and find dates</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="ikinci">
+        <div class="basliq1">
+            <h3>Good Offers Rights Now</h3>
+            <h4 class="mekan">Cinque Terre, New York, San Francisco, Pisa, Paris</h4>
+            <h6>Up to <strong>50%</strong> discount</h6>
+        </div>
+        <div>
+            <div class="sekiller1">
+                <div class="cinque">
+                    <img src="cinque.jpg" alt="">
+                </div>
+                <div class="dord">
+                    <div class="newsan">
+                        <img src="new york.jpg" alt="" id="sekil4" class="new">
+                        <img src="san fransisko.jpg" alt="" id="sekil4">
+                    </div>
+                    <div class="pisaef">
+                        <img src="pisa.jpeg" alt="" id="sekil4">
+                        <img src="pexels-yovanverma-2082103.jpg" alt="" id="sekil4">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ucuncu">
+            <h3 class="explore">Explore Nature</h3>
+            <p class="travel">Travel with us and see nature at its finest.</p>
+        </div>
+        <div class="dagdeniz">
+            <div>
+                <img src="deniz.jpg" alt="" id="ikisekil">
+                <div id="umumi1">
+                    <h3 id="first">West Coast, Norway</h3>
+                    <p id="qiymet">Roundtrip from $79</p>
+                    <p id="melumat">The best memories begin on this beach – plan your trip today.</p>
+                    <button id="buton">Buy Tickets</button>
+                </div>
+            </div>
+            <div>
+                <img src="dag.jpg" alt="" id="ikisekil">
+                <div id="umumi2">
+                    <h3 id="first">Mountains, Austria</h3>
+                    <p id="qiymet">One-way from $39</p>
+                    <p id="melumat">The best memories begin on this mountains – plan your trip today.</p>
+                    <button id="buton">Buy Tickets</button>
+                </div>
+            </div>
+        </div>
+        <div class="email">
+            <h2 class="getthe">Get the best offers first!</h2>
+            <p class="join">Join our newsletter.</p>
+            <form onsubmit="return false">
+                <label for="epost" class="emailyazi">E-mail</label><br>
+                <input type="epost" name="epost" id="epost" placeholder="Your Email address"><br>
+                <input type="submit" class="sub" value="Subscribe">
+            </form>
+        </div>
+        <div class="contact">
+            <h2 class="elaqe">Contact</h2>
+            <p class="letus">Let us book your next trip!</p>
+            <p><i class="fa-solid fa-location-dot" id="emoji"></i>  Baku, Azerbaijan</p>
+            <p><i class="fa-solid fa-phone" id="emoji"></i>Phone: 055-456-88-21</p>
+            <p><i class="fa-solid fa-envelope" id="emoji"> </i>Email: gotravel@mail.com</p>
+        </div>
+        <form action="#" class="ucdene">
+            <input type="text" placeholder="Name" id="name">
+            <input type="email" placeholder="Email" id="email">
+            <input type="text" placeholder="Message" id="mesaj">
+            <input type="submit" value="SEND MESSAGE" id="gonder">
+        </form>
+
+        <footer>
+            <h5 class="findus">Find Us On</h5>
+            <br>
+            <p class="iconlar">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-pinterest"></a>
+            </p>
+        </footer>
+    </div>
+
+
+</body>
+
+</html>

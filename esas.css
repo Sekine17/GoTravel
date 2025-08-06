@@ -1,0 +1,518 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"Raleway", Arial, Helvetica, sans-serif ;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    font-size: x-large;
+}
+
+.konum{
+    display: flex;
+    color: #f44336;
+    gap: 13px;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-weight: 600 ;
+    padding: 13px;
+}
+
+.konum a{
+    text-decoration: none;
+    color: #f44336;
+}
+
+.konum:hover {
+    background-color: #f44336;
+    color: rgb(255, 255, 255);
+}
+
+.konum:hover a{
+    color: rgb(255, 255, 255);
+}
+
+.logo{
+    text-decoration: none;
+}
+
+.axtaris a{
+    text-decoration: none;
+    color: #757575;
+    padding: 13px;
+}
+
+.axtaris a:hover{
+    background-color: #f44336;
+    color: rgb(255, 255, 255);
+}
+
+/*overlay hissesi*/
+
+.birinci{
+    background-image: url(london.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 40px;
+    
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 65%;
+    text-align: left;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+.tabs {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 15px;
+    gap: 0;
+    background-color: black;
+    height: 40px;
+    cursor: pointer;
+    
+}
+
+button{
+    border: none;
+    outline: none;
+    background-color: transparent; 
+    cursor: pointer;
+}
+
+.active{
+    background-color: #f44336;
+    color: white;
+    gap: 30px;
+    width: 100px;
+}
+
+.hotel{
+    background-color: black;
+    color: white;
+    width: 100px;
+}
+
+.rental{
+    background-color: black;
+    color: white;
+    width: 100px;
+}
+
+.active:hover{
+    color: black;
+    background-color: #f1f1f1;
+}
+
+.tabs button i {
+    margin-right: 10px; 
+    border: none;
+}
+
+h2{
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-weight:300;
+    color: #000000;
+    letter-spacing: 0.5px;
+}
+
+.text5{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.form{
+    display: flex;
+    gap: 10px;
+    height: 70px;
+}
+
+.form input{
+    padding-left: 10px;
+}
+
+input{
+    width: 470px;
+    margin-bottom: 20px;
+    border-radius: 0%;
+    border:1px solid #7b7b7b;
+    border-color: #757575;
+    font-size: 15px;
+
+}
+
+.search{
+    background-color:#7b7b7b ;
+    color: white;
+    width: 200px;
+    height: 40px;
+    margin-bottom:20px ;
+    border-radius: 0%;
+    font-size: 15px;
+    font-weight: 300;
+    border: none;
+}
+
+.search:hover{
+    color: #000000;
+    background-color:#b6b4b4; 
+    
+}
+
+/* ikinci hisse*/
+
+.ikinci{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.basliq1{
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom:15px;
+}
+
+h6{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom:15px ;
+}
+
+.mekan{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom:5px ;
+}
+
+.cinque img{
+    height: 400px;
+    width: 540px;
+}
+
+.newsan{
+    display: flex;
+}
+
+.sekiller1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.pisaef{
+    display: flex;
+    
+}
+
+.dord{
+    flex-direction: column;
+}
+
+#sekil4{
+    height: 190px;
+    width: 260px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+/*ucuncu hisse*/
+
+.explore{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom:15px;
+    font-family:"Raleway", Arial, Helvetica, sans-serif ;
+}
+
+.travel{
+    font-size: 16px;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    margin-bottom:15px ;
+}
+
+#ikisekil{
+    height: 240px;
+    width: 540px;
+    display: block;
+}
+
+.dagdeniz{
+    display:flex ;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#first{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom:15px;
+    font-family:"Raleway", Arial, Helvetica, sans-serif ;
+}
+
+#qiymet{
+    font-size: 15px;
+    margin-bottom:15px;
+    font-family:"Raleway", Arial, Helvetica, sans-serif ;
+    color: #757575;
+}
+
+#melumat{
+    font-size: 15px;
+    margin-bottom:15px;
+    font-family:"Raleway", Arial, Helvetica, sans-serif ;
+}
+
+#buton{
+    font-size: 15px;
+    margin-bottom:15px;
+    font-family:"Raleway", Arial, Helvetica, sans-serif ;
+}
+
+#umumi1{
+    background-color: #eeeeee;
+    width: 540px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+#umumi2{
+    background-color: #eeeeee;
+    width: 540px;
+    padding-top: 15px;
+    padding-left: 15px;
+    margin-bottom:15px;
+}
+
+#buton{
+    width: 100px;
+    height: 40px;
+}
+
+#buton:hover{
+    background-color: #ffffff;
+}
+
+/* get the best offers first hissesi*/
+
+.email{
+    background-color: #5b5a5a;
+    background-size: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family:"Raleway", Arial, Helvetica, sans-serif ;
+    color: white;
+}
+
+.getthe{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom:15px;
+    font-family:"Raleway", Arial, Helvetica, sans-serif ;
+    padding-top: 20px;
+    color: white;
+}
+
+.join{
+    font-size: 16px;
+    margin-bottom:15px;
+    font-family:"Raleway", Arial, Helvetica, sans-serif ;
+}
+
+#epost{
+    width: 100%;
+    height: 40px;
+    border: none;
+    margin-top: 3px;
+    padding-left: 10px;
+}
+
+.emailyazi{
+    font-size: 16px;
+}
+
+.email ::placeholder{
+    font-family:"Raleway", Arial, Helvetica, sans-serif ;
+}
+
+.sub{
+    width: 100px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: #f44438;
+    color: white;
+}
+
+.sub:hover{
+    background-color: #b6b4b4;
+    font-family:"Raleway", Arial, Helvetica, sans-serif ;
+    color: #000000;
+}
+
+.email:hover{
+    background-color: #000000;
+}
+
+/*contact hissesi*/
+
+.contact{
+    margin-top: 30px;
+}
+
+.elaqe {
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.letus{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+#emoji{
+    margin-right: 25px;
+}
+
+#name{
+    width: 100%;
+    height: 50px;
+    background-color:#f1f1f1;
+    border: 1px solid #9f9d9d;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+#email{
+    width: 100%;
+    height: 50px;
+    background-color:#f1f1f1;
+    border: 1px solid #9f9d9d;
+    padding-left: 10px;
+}
+
+#mesaj{
+    width: 100%;
+    height: 50px;
+    background-color:#f1f1f1;
+    border: 1px solid #9f9d9d;
+    padding-left: 10px;
+}
+
+#gonder{
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+#gonder:hover{
+    background-color: #9f9d9d;
+    color: #000000;
+}
+
+.findus{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.iconlar{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.iconlar a{
+    text-decoration: none;
+    color: #5b5a5a;
+}
+
+.iconlar a:hover{
+    color:#b6b4b4;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: row;
+        font-size: medium;
+        padding: 10px;
+    }
+
+    .konum, .axtaris {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .box {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .form {
+        flex-direction: column;
+        height: auto;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .search {
+        width: 100%;
+    }
+
+    .ikinci {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .newsan, .pisaef, .dagdeniz, .sekiller1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cinque img, #ikisekil, #sekil4, #umumi1, #umumi2 {
+        width: 100%;
+        height: auto;
+    }
+
+    #buton {
+        width: 100%;
+    }
+
+    .email {
+        padding: 10px;
+    }
+
+    .sub {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
